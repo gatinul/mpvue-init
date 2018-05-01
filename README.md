@@ -1,6 +1,6 @@
-# ableperson
+# 初始化项目
 
-> able person project
+> mpvue初始化项目 加个人封装的一些组件
 
 ## Build Setup
 
