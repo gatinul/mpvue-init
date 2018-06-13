@@ -1,21 +1,20 @@
 # 初始化项目
 
-> mpvue初始化项目 加个人封装的一些组件
+> 小程序初始化项目
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# 安装脚手架 推荐使用cnpm
+cnpm install -g mini-build
 
-# serve with hot reload at localhost:8080
+# 使用脚手架
+mini-build init [你的项目名]
+
+# 初始化项目
+cd [你的项目名]
+cnpm install
+
+# 实时开发
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
